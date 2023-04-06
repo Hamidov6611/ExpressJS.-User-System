@@ -6,4 +6,5 @@ userRoute.get("/", userGetController)
 userRoute.post("/", userPostController)
 userRoute.post("/login", UserLoginPostController)
 
+
 module.exports = userRoute
